@@ -1,6 +1,6 @@
 <img src=".github/preview-current-time.jpg" alt="Preview current time website." />
 
-# To Do List With Tailwind 
+# Current Time 
  
 <img src="https://img.shields.io/badge/States-Conclused-green">
 
