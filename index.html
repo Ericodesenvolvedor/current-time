@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Time</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body class="bg-teal-500 min-h-screen grid place-items-center box-border">
+    <main id="timer" class="max-w-[500px] w-full grid gap-4 grid-cols-[1fr_minmax(50px,_100px)_1fr]">
+        <div id="timer-hours-wrapper" class="grid place-items-center bg-white">
+            <span id="timer-hours" class="p-7" aria-labelledby="timer-title-hours">00</span>
+            <h2 id="timer-title-hours" class="bg-teal-800 w-full text-center p-2 text-white font-semibold">Horas</h2>
+        </div>
+        <div id="timer-separator-wrapper" class="grid place-items-center bg-white p-7">:</div>
+        <div id="timer-minutes-wrapper" class="grid place-items-center bg-white">
+            <span id="timer-minutes" class="p-7" aria-labelledby="timer-title-minutes">00</span>
+            <h2 id="timer-title-minutes" class="bg-teal-800 w-full text-center p-2 text-white font-semibold">Minutos</h2>
+        </div>
+    </main>
+    <script src="./assets/js/main.js" type="module"></script>
+</body>
+</html>
